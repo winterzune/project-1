@@ -1,0 +1,101 @@
+
+#game .st {
+  width: 240px;
+  margin: 2rem auto .2rem auto;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 3rem;
+  font-family: 'ITC Benguiat W01';
+  font-weight: 800;
+  color: #1c0502;
+  text-shadow: -0.05rem -0.05rem 2px #ed2b12,
+    0.05rem -0.05rem 1px #ed2b12,
+    -0.05rem 0.05rem 1px #ed2b12,
+    0.05rem 0.05rem 1px #ed2b12,
+    0 0 15px #630100,
+    0 0 20px #450100;
+  letter-spacing: -9px;
+}
+
+#game .st p {
+  display: inline-block;
+  margin: 0;
+  width:240px;
+
+}
+#game .st-bottom p {
+    position: relative;
+    top: -32px;
+    left: -3px;
+}
+#game .st-bound {
+  box-shadow: -0.05rem -0.05rem 2px #ed2b12,
+    0.05rem -0.05rem 2px #ed2b12,
+    -0.05rem 0.05rem 2px #ed2b12,
+    0.05rem 0.05rem 2px #ed2b12;
+  height: 5px;
+}
+
+#game .st-bound-full {
+    width: 100%;
+    margin: auto;
+    margin-bottom: 10px;
+    max-width: 240px;
+}
+
+#game .st-bound-mini {
+  margin-top: -22px;
+}
+
+#game .st-bound-left {
+  float: left;
+  width: 50px;
+  position: relative;
+}
+
+#game .st-bound-right {
+  float: right;
+  width: 50px;
+  position: relative;
+}
+
+#game .st-bottom {
+    clear: both;
+    top: 18px;
+    position: relative;
+    letter-spacing: -7px;
+}
+
+#game .st-drop {
+  line-height: 0;
+  position: relative;
+}
+
+#game .st-stranger-l {
+  font-size: 4rem;
+  letter-spacing: -1px;
+}
+
+#game .st-stranger-i {
+  letter-spacing: 2px;
+}
+
+#game .st-stranger-n {
+  letter-spacing: 1px;
+}
+
+#game .st-stranger-e {
+  letter-spacing: 0;
+}
+
+#game .st-things-r {
+  font-size: 4rem;
+  letter-spacing: -3px;
+}
+
+#game .st-things-a{
+  letter-spacing: 1px;
+}
+
+
+

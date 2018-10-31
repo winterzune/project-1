@@ -1,0 +1,146 @@
+html{height: 100%;}
+body {
+  margin: 0 auto;
+  background-image: url('../images/image2.jpg');/*background for login page*/
+  background-repeat:no-repeat;
+  background-size: cover;
+  font-family: 'Times New Roman', Times, serif;
+  color: #AC010F; /*red*/
+  font-size: 18px;
+  text-align: center;
+  }
+/*Login/Register form container*/
+#authentication #regContainer{
+  margin-top: 3%;
+}
+#authentication .panel-login {/*the panel of the form*/
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  max-width: 650px;
+  background-color: rgba(12,6,7,.4);
+  box-shadow: 0px 0px 40px 8px black;
+}
+/*GENERAL FORM DISPLAY*/
+#authentication form#login-form,form#register-form{
+  max-width: 265px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+/*push submission button to the right side*/
+#authentication .form-group.submission{
+  justify-content: flex-end;
+}
+/* FORM HEADERS*/
+#authentication .row.headerBut {/*container for headers of the form*/
+  max-width: 265px;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+#authentication .headerBut a{ /*set header for the form*/
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 28px;
+  color: #AC010F;
+  text-align: center;
+  transition: all 0.1s linear;
+}
+/*INPUTS CONTAINER*/
+/*display for inputs and labels*/
+#authentication .form-group {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  width: 100%;
+}
+/*style for default colors of the form inputs*/
+#authentication .form-group input,
+#authentication .form-group input:-webkit-autofill,
+#authentication .form-group textarea:-webkit-autofill,
+#authentication .form-group select:-webkit-autofill {
+  background-color: black;
+  height: 28px;
+  line-height: 28px;
+  border: 1px solid rgb(80, 13, 13);
+  font-size: 16px;
+  color:rgb(247, 244, 245);
+  transition: all 0.1s linear;
+}
+/*re-style default style for input fillings*/
+#authentication .form-group textarea:focus,
+#authentication .form-group input:focus,
+#authentication .form-group input[type]:focus,
+#authentication .form-group .uneditable-input:focus {
+  border-color: rgba(247, 244, 245, .8);
+  box-shadow: 0 1px 1px rgba(247, 244, 245, 0.75) inset, 0 0 8px rgba(247, 244, 245, 0.6);
+  outline: 0 none;
+}
+/*FORM SUBMISSION FIELD*/
+/*form's buttons*/
+#authentication .form-group input.btn-login,
+#authentication .form-group input.btn-register {
+  outline: none;
+  font-size: 14px;
+  height: auto;
+  margin-bottom: 5px;
+  margin-top:5px;
+  text-transform: uppercase;
+  transition: background-color 1.5s;
+}
+#authentication .btn-login{padding: 8px 18.2px;}
+#authentication .btn-register{padding: 8px 32.78px;}
+
+/*transition effect for buttons*/
+#authentication .btn-login:hover,
+#authentication .btn-login:focus,
+#authentication .btn-register:hover,
+#authentication .btn-register:focus {
+  color: #fff;
+  background-color: #AC010F;
+  border-color: #000;
+}
+
+ @media only screen and (max-width: 640px){
+  #authentication .st {max-width: 228px;font-size: 45px;margin-top: 4rem;}
+  #authentication .st-bound-full{
+    margin-left: 0;
+    margin-bottom: 15px;
+  }
+  #authentication .st-stranger-l {font-size: 4rem; letter-spacing: 0px;}
+  #authentication .st-stranger-i {letter-spacing: 3px;}
+  #authentication .st-stranger-n, .st-stranger-e {letter-spacing: 0px;}
+  #authentication .st-things-p {letter-spacing: 3px;}
+  #authentication .st-bound-left, .st-bound-right{width: 45px;left: 0;}
+  #authentication .st-bound-mini {margin-top: 25px;}
+  #authentication .st-bottom {top: -26px;
+    left: 0px;
+    letter-spacing: 1px;
+  }
+  #authentication .st-things-r {
+    letter-spacing: 2px;
+    font-size: 4.5rem;
+    right: 0;}
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,122 @@
+.container{
+   z-index: 2;
+}
+#xmas {
+   /* width: 100%;
+   height: 100%; */
+   position: absolute;
+   top: 0;
+   left: 0;
+
+}
+
+.zindex3 {
+  z-index: 3;
+  position:relative;
+}
+
+#authentication .st {
+  width: 625px;
+  margin: 2rem auto .2rem auto;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 8rem;
+  font-family: 'ITC Benguiat W01';
+  font-weight: 800;
+  color: #1c0502;
+  text-shadow: -0.05rem -0.05rem 2px #ed2b12,
+    0.05rem -0.05rem 1px #ed2b12,
+    -0.05rem 0.05rem 1px #ed2b12,
+    0.05rem 0.05rem 1px #ed2b12,
+    0 0 15px #630100,
+    0 0 20px #450100;
+  letter-spacing: -1px;
+}
+
+#authentication .st p {
+  display: inline-block;
+  margin: 0;
+}
+
+#authentication .st-bound {
+  box-shadow: -0.05rem -0.05rem 2px #ed2b12,
+    0.05rem -0.05rem 2px #ed2b12,
+    -0.05rem 0.05rem 2px #ed2b12,
+    0.05rem 0.05rem 2px #ed2b12;
+  height: 5px;
+}
+
+#authentication .st-bound-full {
+    width: 100%;
+    margin: auto;
+    margin-bottom: -1.2rem;
+    max-width: 612px;
+    margin-left: 5px;
+}
+
+#authentication .st-bound-mini {
+  margin-top: 5.5rem;
+}
+
+#authentication .st-bound-left {
+  float: left;
+  width: 123px;
+  position: relative;
+  left: 7px;
+}
+
+#authentication .st-bound-right {
+  float: right;
+  width: 123px;
+  left: -0.7rem;
+  position: relative;
+}
+
+#authentication .st-bottom {
+    clear: both;
+    top: -78px;
+    position: relative;
+    left: .6rem;
+    letter-spacing: 2px;
+}
+
+#authentication .st-drop {
+  line-height: 0;
+  position: relative;
+}
+
+#authentication .st-stranger-l {
+    font-size: 8rem;
+    letter-spacing: -7px;
+}
+
+#authentication .st-stranger-i {
+  letter-spacing: 0;
+}
+
+#authentication .st-stranger-n {
+  letter-spacing: -5px;
+}
+
+#authentication .st-stranger-e {
+  letter-spacing: 0;
+}
+
+#authentication .st-things-r {
+  font-size: 10.5rem;
+  right: 0.2rem;
+}
+
+#authentication .st-things-a{
+  letter-spacing: 2px;
+}
+
+#authentication .st-things-p {
+  letter-spacing: -5px;
+}
+
+#authentication .st-things-r {
+  letter-spacing: -3px;
+}
+
+
